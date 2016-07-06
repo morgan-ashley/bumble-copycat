@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #f7c547;
+}
+.logo {
+    width: 85%;
+    height: 85%;
+    margin-top: 35%;
+    margin-left: -3%;
+}
+.phones {
+    margin-top: 4%;
+    padding-bottom: 20px;
+}
+.app img {
+    margin-top: 12%;
+    margin-left: 0;
+    padding-right: 20px;
+    width: height
+}
+p {
+    color: #fff;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-size: 1.7em;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+h1 {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.navbar-nav>li>a {
+    background: #efb421;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 10px 15px 20px;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+.navbar-nav>li>a:hover {
+    background: #efb421;
+    text-decoration: underline;
+}
+.navbar-nav>a,
+.navbar-nav>a:hover {
+    background: #efb421;
+}
+.container-fluid {
+    background: #efb421;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-decoration: none;
+}
+.container-fluid:hover {
+    background: #efb421;
+}
+ul.dropdown-menu {
+    border-radius: 10px;
+}
+.dropdown-menu>li>a {
+    font-size: 1.2em;
+    font-weight: 200;
+    -o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+}
+.dropdown-menu>li>a:hover {
+    color: #efb421;
+    background-color: transparent;
+    ;
+    text-decoration: underline;
+}
+.navbar-nav>.open>a,
+.navbar-nav>.open>a:hover {
+    color: #fff;
+    text-decoration: underline;
+    background: #efb421;
+}
+.dropdown-menu>.active>a {
+    color: #b7b7b7;
+    background: transparent;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover {
+    background: transparent;
+    color: #b7b7b7;
+}
+img.icon {
+    height: 30px;
+}
+.icon {
+    padding-left: 15%;
+}
+.col-md-8 {
+    margin-top: 14%;
+}
+.col-md-5 {
+    margin-top: 2%;
+    float: right;
+}
+ul.dropdown-menu.bubble {
+    /position: relative;
+    width: 230px;
+    height: 180px;
+    padding: 4px;
+    background: #FFFFFF;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+ul.dropdown-menu.bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 12px 10px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -5px;
+    left: 189px;
+}
